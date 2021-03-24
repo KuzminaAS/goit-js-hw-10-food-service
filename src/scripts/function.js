@@ -25,9 +25,6 @@ function replaceTheme(e) {
   
 } 
 
-//Выбранная тема должна сохраняться между перезагрузками страницы. Для хранения темы используй localStorage
-//Если при загрузке страницы тема тёмная, не забудь поставить свойство checked у чекбокса #theme-switch-toggle в true, чтобы ползунок сдвинулся в правильное положение
-
 
     const localTheme = localStorage.getItem('Theme');
     
@@ -38,15 +35,4 @@ function replaceTheme(e) {
 
 
 
-// function onSaveTheme() {
-//     
-//     if (inputCheck) {
-//         localStorage.setItem('Theme', Theme.DARK);
-//     } 
 
-// const localTheme = localStorage.getItem('Theme');
-//     if (localTheme) { 
-//         document.body.classList.remove(Theme.LIGHT);
-//         input.checked = true;
-//     }
-// }
